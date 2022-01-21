@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9400434eb45cce1923bd0f601e541a45",
+    "packages": [
+        {
+            "name": "pantheon-systems/pantheon-edge-integrations",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/pantheon-edge-integrations",
+                "reference": "195d579fda4773e039feb1ef42ebd5f9fdba0545"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Kalamuna\\SmartCDN\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kelly Jacobs",
+                    "email": "kelly@kalamuna.com"
+                }
+            ],
+            "description": "Helper class for content personalization.",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "pantheon-systems/smart_content_cdn",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/smart_content_cdn",
+                "reference": "83365053cc197cf5dcdd17cbbd239dd8b59b7f8f"
+            },
+            "require": {
+                "pantheon-systems/pantheon-edge-integrations": "dev-master"
+            },
+            "type": "drupal-module",
+            "autoload": {
+                "psr-4": {
+                    "Pantheon\\SmartContentCdn\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Edge Integrations for Drupal on Pantheon's platform.",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

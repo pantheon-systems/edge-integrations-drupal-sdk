@@ -1,0 +1,28 @@
+{
+    "name": "pantheon-systems/edge-integrations-drupal-sdk",
+    "description": "A one-stop shop for integration your Drupal site on Pantheon with advanced Edge Integrations tools.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*",
+            "symlink": true
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "require": {
+        "pantheon-systems/smart_content_cdn": "*"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/modules/contrib/{$name}": [ "type:drupal-module" ]
+        }
+    }
+}
