@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9400434eb45cce1923bd0f601e541a45",
+    "content-hash": "289f56c85ef95ae1244a4f2e80c93e4a",
     "packages": [
         {
             "name": "pantheon-systems/pantheon-edge-integrations",
@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/pantheon-edge-integrations",
-                "reference": "195d579fda4773e039feb1ef42ebd5f9fdba0545"
+                "reference": "e27f75351210aa03ca6f7d91b340519775e18635"
             },
             "type": "library",
             "autoload": {

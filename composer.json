@@ -20,9 +20,5 @@
     "require": {
         "pantheon-systems/smart_content_cdn": "*"
     },
-    "extra": {
-        "installer-paths": {
-            "web/modules/contrib/{$name}": [ "type:drupal-module" ]
-        }
-    }
+    "extra": {}
 }
