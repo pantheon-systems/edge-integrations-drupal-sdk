@@ -10,6 +10,14 @@
             "type": "path",
             "url": "packages/*",
             "symlink": true
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
         }
     ],
     "config": {
