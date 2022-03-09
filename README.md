@@ -42,5 +42,7 @@ To get started, all you need to do is to add this repository as a dependency:
 composer require pantheon-systems/edge-integrations-drupal-sdk
 ```
 
-That command will add this repository to your `/vendor` directory, as well as all of the dependencies, which include a [global, CMS-agnostic PHP library](https://github.com/pantheon-systems/pantheon-edge-integrations) and a [Drupal module](https://github.com/pantheon-systems/smart_content_cdn) as well as all of the documentation for the SDK.
+That command will add this repository with all of the associated documentation to your `/vendor` directory, as well the [global, CMS-agnostic PHP library](https://github.com/pantheon-systems/pantheon-edge-integrations) so you can get started right away.
+
+In addition, Composer suggests the [Smart Content CDN](https://github.com/pantheon-systems/smart_content_cdn) as a possible implementation for Drupal personalization.
 
