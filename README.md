@@ -36,8 +36,6 @@ Smart Content Preview allows blocks created with Smart Content to be previewed a
 
 Adding Edge Integrations support to your project is simple.
 
-<!-- Dev note: This isn't actually possible yet until we publish this repository on Packagist. -->
-
 To get started, all you need to do is to add this repository as a dependency:
 
 ```bash
