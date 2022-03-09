@@ -28,9 +28,10 @@ The [Pantheon Edge Integrations](https://github.com/pantheon-systems/pantheon-ed
 
 #### Smart Content CDN
 [Smart Content CDN](https:github.com/pantheon-systems/smart_content_cdn) uses interfaces provided by [Smart Content](https://www.drupal.org/project/smart_content) as well as the interactions with header data enabled by the Pantheon Edge Integrations library to handle the two-way communication between the CDN and the CMS to render personalized content by geolocation or interest.
+<!-- Smart Content Preview is not currently its own package. Removing documentation until that is released as a public package.>
 #### Smart Content Preview
 Smart Content Preview allows blocks created with Smart Content to be previewed and tested. In this case, this allows the site administrator to preview geolocation- or interest-based content on the front-end. This module is currently still in development.
-
+<-->
 ## Setup
 
 Adding Edge Integrations support to your project is simple.
