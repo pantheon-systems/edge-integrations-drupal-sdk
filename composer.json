@@ -7,6 +7,14 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
             "type": "path",
             "url": "packages/*",
             "symlink": true
@@ -18,7 +26,10 @@
         "sort-packages": true
     },
     "require": {
-        "pantheon-systems/smart_content_cdn": "*"
+        "pantheon-systems/pantheon-edge-integrations": "^1.0"
+    },
+    "suggest": {
+        "pantheon-systems/smart_content_cdn": "The Smart Content CDN module provides a way to interact with headers sent by Pantheon's AGCDN to personalize blocks of content using the Smart Content module."
     },
     "extra": {}
 }
