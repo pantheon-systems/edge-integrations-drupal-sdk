@@ -46,3 +46,4 @@ That command will add this repository with all of the associated documentation t
 
 In addition, Composer suggests the [Smart Content CDN](https://github.com/pantheon-systems/smart_content_cdn) as a possible implementation for Drupal personalization.
 
+You can also use Composer to require these packages separately (e.g. `composer require pantheon-systems/smart-content-cdn` or `composer require pantheon-systems/pantheon-edge-integrations`) if you don't need the documentation locally.
