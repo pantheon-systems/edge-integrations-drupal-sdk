@@ -26,12 +26,8 @@ Edge Integrations start with the "edge" itself, the CDN layer that is the last s
 #### Pantheon Edge Integrations global library
 The [Pantheon Edge Integrations](https://github.com/pantheon-systems/pantheon-edge-integrations) global library allows developers to interact with the header data sent to and from the CDN. This is a low level interface that simplifies the process of communicating with and interpretting headers sent from the CDN. It's important to note that the Edge Integrations library is built as a generic, CMS-agnostic PHP package, and is used as the base of both the WordPress and the Drupal implementations.
 
-#### Smart Content
-[Smart Content](https://www.drupal.org/project/smart_content) is used to provide an easy-to-use interface to manage personalized content in Drupal. The Smart Content CDN module extends Smart Content to store config options for managing your personalized content.
-
 #### Smart Content CDN
-[Smart Content CDN](https:github.com/pantheon-systems/smart_content_cdn) uses the interfaces provided by Smart Content as well as the interactions enabled by the Pantheon Edge Integrations library to handle the two-way communication between the CDN and the CMS to render personalized content or set/get interest values.
-
+[Smart Content CDN](https:github.com/pantheon-systems/smart_content_cdn) uses interfaces provided by [Smart Content](https://www.drupal.org/project/smart_content) as well as the interactions with header data enabled by the Pantheon Edge Integrations library to handle the two-way communication between the CDN and the CMS to render personalized content by geolocation or interest.
 #### Smart Content Preview
 Smart Content Preview allows blocks created with Smart Content to be previewed and tested. In this case, this allows the site administrator to preview geolocation- or interest-based content on the front-end. This module is currently still in development.
 
