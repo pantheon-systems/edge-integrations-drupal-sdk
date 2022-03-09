@@ -12,11 +12,8 @@ The diagram below illustrates the general overview of what this SDK provides and
 
 ```mermaid
 flowchart TB
-agcdn[/Pantheon Advanced Global CDN\]-->ei[Pantheon Edge Integrations global library] & drupal[Drupal]
-drupal-->smart_content(Smart Content)
-ei-->smart_content_cdn(Smart Content CDN)
-smart_content-->smart_content_cdn(Smart Content CDN)
-smart_content-. optional .->smart_content_preview(Smart Content Preview)
+agcdn[/Pantheon Advanced Global CDN\]-->ei[Pantheon Edge Integrations global library]
+ei-. optional .->smart_content_cdn(Smart Content CDN)
 ```
 
 ### Description
