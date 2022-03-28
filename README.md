@@ -14,7 +14,7 @@ The diagram below illustrates the general overview of what this SDK provides and
 flowchart TB
 agcdn[/Pantheon Advanced Global CDN\]-->ei[Pantheon Edge Integrations global library]
 ei-. optional .->smart_content_cdn(Smart Content CDN)
-ei-. optional .->smart_content_preview(Smart Content Preview)
+smart_content_cdn-. optional .->smart_content_preview(Smart Content Preview)
 ```
 
 ### Description
