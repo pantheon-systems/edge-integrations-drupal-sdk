@@ -20,7 +20,7 @@ smart_content-. optional .->smart_content_preview(Smart Content Preview)
 
 ### Description
 
-The Edge Integrations WordPress SDK is made up of several components that, in addition to the documentation stored in this repository, are all installed automatically when you `composer require` the project in your WordPress project root. 
+The Edge Integrations Drupal SDK is made up of several components that, in addition to the documentation stored in this repository, are all installed automatically when you `composer require` the project in your Drupal project root. 
 
 #### Pantheon Advanced Global CDN
 Edge Integrations start with the "edge" itself, the CDN layer that is the last stop before a page is rendered in your browser. Pantheon's [Advanced Global CDN](https://pantheon.io/docs/guides/professional-services/advanced-global-cdn) has enabled Varnish configuration rules on our AGCDN platform to allow for geolocation information and interest tracking data to be sent back and forth with the CDN, enabling CDN caching for content personalized by those parameters. AGCDN is the first step for Pantheon Edge Integrations and allows us to render cached versions of personalized pages.
