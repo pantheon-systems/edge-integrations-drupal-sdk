@@ -49,3 +49,7 @@ That command will add this repository with all of the associated documentation t
 In addition, Composer suggests the [Smart Content CDN](https://github.com/pantheon-systems/smart_content_cdn) as a possible implementation for Drupal personalization.
 
 You can also use Composer to require these packages separately (e.g. `composer require pantheon-systems/smart-content-cdn` or `composer require pantheon-systems/pantheon-edge-integrations`) if you don't need the documentation locally.
+
+## Known Issues
+
+There is a known conflict with the [Internal Page Cache](https://www.drupal.org/docs/administering-a-drupal-site/internal-page-cache) module. This module does not provide any benefit when used on a Pantheon environment but may be recommended (or enabled) for some modules. Our recommendation is to disable the Internal Page Cache module on Pantheon to ensure compatibility with Edge Integrations. [Dynamic Page Cache](https://www.drupal.org/docs/8/core/modules/dynamic-page-cache/overview) _is_ compatible with Edge Integrations and does not suffer from the same restrictions.
