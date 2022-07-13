@@ -26,7 +26,7 @@
         "sort-packages": true
     },
     "require": {
-        "pantheon-systems/pantheon-edge-integrations": "^1.0"
+        "pantheon-systems/pantheon-edge-integrations": "^1.1.0"
     },
     "suggest": {
         "pantheon-systems/smart_content_cdn": "The Smart Content CDN module provides a way to interact with headers sent by Pantheon's AGCDN to personalize blocks of content using the Smart Content module."
