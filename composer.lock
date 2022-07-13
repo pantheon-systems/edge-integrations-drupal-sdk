@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "944f3e013cc566f9ce54dbf8235c1f1e",
+    "content-hash": "68db8f5b3cc1002fb9e6606973a89000",
     "packages": [
         {
             "name": "pantheon-systems/pantheon-edge-integrations",
-            "version": "v1.1.0-alpha1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/pantheon-edge-integrations.git",
-                "reference": "529b95b0759efe3dc80532d005ccc87a7c41abd1"
+                "reference": "0dc752d5854aa774dbfacbed1def1628da65416e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/pantheon-edge-integrations/zipball/529b95b0759efe3dc80532d005ccc87a7c41abd1",
-                "reference": "529b95b0759efe3dc80532d005ccc87a7c41abd1",
+                "url": "https://api.github.com/repos/pantheon-systems/pantheon-edge-integrations/zipball/0dc752d5854aa774dbfacbed1def1628da65416e",
+                "reference": "0dc752d5854aa774dbfacbed1def1628da65416e",
                 "shasum": ""
             },
             "require-dev": {
@@ -40,9 +40,9 @@
             "description": "Helper class for content personalization.",
             "support": {
                 "issues": "https://github.com/pantheon-systems/pantheon-edge-integrations/issues",
-                "source": "https://github.com/pantheon-systems/pantheon-edge-integrations/tree/v1.1.0-alpha1"
+                "source": "https://github.com/pantheon-systems/pantheon-edge-integrations/tree/v1.1.0"
             },
-            "time": "2022-06-01T21:29:18+00:00"
+            "time": "2022-06-21T20:54:42+00:00"
         }
     ],
     "packages-dev": [],
